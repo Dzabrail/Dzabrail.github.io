@@ -1,0 +1,216 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+header{
+    position: relative;
+}
+nav{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    height: 50px;
+    background: #212121;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 70px;
+    margin: 0;
+    list-style-type: none;
+}
+.menu .menu_link{
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 15px;
+}
+.menu .menu_item{
+    border-right: 2px dotted black;
+    padding-right: 28px;
+}
+.subheader{
+    position: absolute;
+    width: 100%;
+    height: 84px;
+    top: 41px;
+    background: rgba(0, 0, 0, 0.6)
+}
+.subheader .subheader_logo{
+    min-width: 100%;
+    display: block;
+    margin-top: 16px;
+}
+.subheader .subheader_text{
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin-top: 6px;
+}
+.subheader .rr{
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+    text-align: right;
+    margin-top: 22px;
+}
+.subheader .tel{
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 8px;
+    text-align: right;
+    line-height: 12px;
+}
+.subheader .btn{
+    display: block;
+    margin: 19px;
+    width: 172px;
+    height: 46px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    border: none;
+    border-radius: 3px;
+    box-shadow: inset 0px 0 0px  rgba(0, 0, 0, 0.12);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.promo{
+    min-height: 800px;
+    background: url("../img/bg/img1.jpg") center center/ cover no-repeat ;
+    text-align: center;
+    padding: 150px 0 135px 0;
+}
+.promo .promo_header{
+    margin: 0;
+    margin-top: 68px;
+    font-weight: 900;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 60px;
+}
+.promo .promo_sudheder{
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 36px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 22px ;
+    line-height: 36px;
+}
+.promo .promo_bescr{
+    margin-top: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.promo .promo_btn{
+    margin-top: 115px;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    border: none;
+    border-radius: 4px;
+    box-shadow: inset 0px  0px 3px rgba(0, 0, 0, 0.12);
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.advantages{
+    min-height: 900px;
+}
+.advantages .reasons{
+    margin-top: 68px;
+}
+.advantages .reasons .reason_1{
+    width: 112px;
+    height: 24px;
+    background: #000000;
+    font-weight: 100;
+    font-size: 11px;
+    padding: 4px 12px;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.advantages .reasons .eight{
+    font-weight: 700;
+    font-size: 38px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center;
+    margin-top: 33px;
+}
+.advantages .reasons .reasons__item{
+    display: flex;
+    margin-top: 16px;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;;
+}
+.advantages .reasons .reasons__item .reasons_text{
+    width: 371px;
+    font-weight: 300;
+    color: #202020;
+    font-size: 15px;
+    line-height: 21px;
+    margin-left: 26px;
+}
+.advantages .reasons .reasons__item .reasons_text span{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1EACC7;
+}
+.reasons_img {
+    width: 113px;
+    height: 113px;
+    background-color:#1EACC7; 
+    border-radius: 50%;
+    position: relative;
+    
+}
+.reasons_img img {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.opportunities{
+    min-height: 864px;
+    background: url("../img/bg/img2.png");
+}
+.opportunities .opportunities_1{
+    width: 112px;
+    height: 24px;
+    background: #000000;
+    font-weight: 100;
+    font-size: 11px;
+    text-align: center;
+    line-height: 24px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 12px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.opportunities .opportunities_uber{
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #222222;
+    text-align: center;
+    margin-top: 33px;
+}
+
